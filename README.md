@@ -8,30 +8,30 @@ Available from: https://doi.org/10.1101/2021.10.31.21265202
 
 In these files, we included the code used to obtain the data presented in tables and figures in the main paper and its supplemental material. We also included the dataset codebook. 
 
-All the data used in this study are publicly available. We obtained the data from the Integrated Public Use Microdata Series website (https://nhis.ipums.org/nhis/).[1]
+All the data used in this study are publicly available. We obtained the data from the Integrated Public Use Microdata Series website (https://nhis.ipums.org/nhis/). [1]
 
 Below, we describe each of the Stata .do files.
 
-preprocess.do
+### preprocess.do
 •	Describes the study sample creation and generation of variables of interest. 
 
-population_general_characteristics.do
+### population_general_characteristics.do
 •	Estimates the study population characteristics by race and ethnicity. 
 
-annual_prevalence_estimation.do
+### annual_prevalence_estimation.do
 •	Estimates the annual prevalence by race and ethnicity of short and long sleep duration.
 
-temporal_trends_analysis.do
+### temporal_trends_analysis.do
 • Estimates the annualized rate of change of each sleep duration prevalence by race and ethnicity, along with the racial and ethnic differences from 2004 to 2018.
 
-temporal_trends_figures.do
+### temporal_trends_figures.do
 •	Plots the annual prevalence of each sleep duration by race/ethnicity using the estimates obtained by running annual_prevalence_estimation.do 
 
-prevalence_by_age.do
+### prevalence_by_age.do
 •	Estimates the prevalence of each sleep duration variable by age group and race/ethnicity. 
 
-age_figures.do
+### age_figures.do
 •	Plots each sleep duration prevalence by age and race/ethnicity using the estimates obtained by running prevalence_by_age.do
 
-Reference: 
+## Reference: 
 1. Lynn A. Blewett, Julia A. Rivera Drew, Miriam L. King and Kari C.W. Williams. IPUMS Health Surveys: National Health Interview Survey, Version 6.4 [dataset]. Minneapolis, MN: IPUMS, 2019. https://doi.org/10.18128/D070.V6.4 

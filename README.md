@@ -34,5 +34,8 @@ Below, we describe each of the Stata .do files. These .do files use the special 
 ### age_figures.do
 •	Plots each sleep duration prevalence by age and race/ethnicity using the estimates obtained by running prevalence_by_age.do
 
+### sensitivity-analysis.do
+• Estimates short sleep prevalence for Black individuals and White individuals while accounting for differences in self-reported sleep duration overestimation between the two groups.
+
 ## Reference: 
 1. Lynn A. Blewett, Julia A. Rivera Drew, Miriam L. King and Kari C.W. Williams. IPUMS Health Surveys: National Health Interview Survey, Version 6.4 [dataset]. Minneapolis, MN: IPUMS, 2019. https://doi.org/10.18128/D070.V6.4 
